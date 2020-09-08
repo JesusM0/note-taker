@@ -13,7 +13,7 @@ This application was created so that the user may create and modify notes within
 
 * [Usage](#Usage)
 
-* [Deployed Application](#Deployed Application)
+* [Deployed Application](#Deployed-Application)
 
 * [Credits](#Credits)
 
@@ -22,7 +22,7 @@ This application was created so that the user may create and modify notes within
 ## **Usage**
 Create notes by simply clicking into the text area of the title or body. Clicking the pen at the top right corner will also start the creation of a new note. Once title and body created, save icon should appear.
 
-## Deployed Application
+## Deployed-Application
 https://note-taker213.herokuapp.com/
 
 ## Credits
