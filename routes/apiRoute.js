@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { notes } = require(`../data/db.json`);
+const notes = require('../data/notes');
 
 router.get('/notes', (req, res) => {
     notes.getNotes()
@@ -8,13 +8,13 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    notes.addCreatedNote(req.body)
+    notes.addPostNote(req.body)
         .then(notes => res.json(notes))
         .catch(err => res.status(400).json(err))
 });
 
 router.delete('/notes/:id', (req, res) => {
-    notes.deleteNote(req.params.id)
+    notes.eraseNote(req.params.id)
         .then(() => res.json({ ok: true }))
         .catch(err => res.status(400).json(err))
 });

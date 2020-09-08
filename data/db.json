@@ -1,9 +1,21 @@
-{
-    "notes": [
-        {
-            "title": "Test Title",
-            "text": "Test text",
-            "id": "test_id"
-        }
-    ]
-} 
+[
+    {
+        "notes": [
+            {
+                "title": "Test Title",
+                "text": "Test text",
+                "id": "test_id"
+            }
+        ]
+    },
+    {
+        "title": "Test Note 1",
+        "text": "This is a TEST NOTE that should appear once the server and application are launched. \n",
+        "id": "b8f62140-dda2-11ea-9230-abedb0fb972a"
+    },
+    {
+        "title": "Shin Megami Tensei",
+        "text": "SMT1, SMT2, SMT if, SMT Nocturne, SMT:IV, SMT:IV-A, SMT:V(yet to be released)",
+        "id": "ee0b2980-dda6-11ea-ad4b-f93165232faf"
+    }
+]
